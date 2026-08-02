@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-08-02T23:24:10.270211",
+    "question": "What is a hypervisor?",
+    "retrieved_chunks_preview": [
+      "of the particular components \ninvolved in delivering a virtual -- rather than physical -- version of \nsomething, such as an operating system (OS), a s",
+      "Their direct access to system \nhardware enables better performance, scalability and stability. Examples \nof type 1 hypervisors include Microsoft Hyper",
+      "it also \nposes a security risk to sensitive data. \nTypes of Virtualization \n1. Hardware Virtualization. \n2. Operating system Virtualization. \n3. Serve"
+    ],
+    "generated_answer": "The hypervisor isolates operating systems and applications from the underlying computer hardware so the host machine can run multiple virtual machines (VM) as guests that share the system's physical compute resources, such as processor cycles, memory space, network bandwidth and so on."
+  },
+  {
+    "timestamp": "2026-08-02T23:24:24.259014",
+    "question": "What is the difference between a virtual machine and a container?",
+    "retrieved_chunks_preview": [
+      "the operating system \nthat runs on actual hardware. A virtual counterpart of the \noperating system is a subpart that executes or emulates the \nvirtual",
+      "PC and Oracle VM VirtualBox. \nVirtualization Architecture and Software \nVirtualization Architecture and Software \nThe \nmain \nalternative \nto \nhypervis",
+      "Cloud Computing \nVirtualization is the \"creation of a virtual (rather than actual) \nversion of something, such as a server, a desktop, a storage devic"
+    ],
+    "generated_answer": "They are a collection of processes that executes along with corresponding namespace or identifiers of process."
+  },
+  {
+    "timestamp": "2026-08-02T23:24:36.583453",
+    "question": "What are the types of virtualization?",
+    "retrieved_chunks_preview": [
+      "it also \nposes a security risk to sensitive data. \nTypes of Virtualization \n1. Hardware Virtualization. \n2. Operating system Virtualization. \n3. Serve",
+      "\nTypes of Virtualization \n3) Server Virtualization: \nWhen the virtual machine software or virtual machine manager (VMM) is \ndirectly installed on the ",
+      "to use Windows and Linux at the same time. \nVirtualization can help build a virtual environment, and it will enable the \nuse of more than one Operatin"
+    ],
+    "generated_answer": "1. Hardware Virtualization. 2. Operating system Virtualization. 3. Server Virtualization. 4. Storage Virtualization."
+  },
+  {
+    "timestamp": "2026-08-02T23:24:53.193426",
+    "question": "What is server virtualization used for?",
+    "retrieved_chunks_preview": [
+      "\nTypes of Virtualization \n3) Server Virtualization: \nWhen the virtual machine software or virtual machine manager (VMM) is \ndirectly installed on the ",
+      "monitoring the processor, \nmemory and other hardware resources. \nAfter virtualization of hardware system we can install different operating \nsystem on",
+      "to virtualize applications is the server-based \napproach. This means an IT administrator implements remote \napplications on a server inside an organiz"
+    ],
+    "generated_answer": "Server virtualization is done because a single physical server can be divided into multiple servers on the demand basis and for balancing the load."
+  },
+  {
+    "timestamp": "2026-08-02T23:25:04.245998",
+    "question": "What is storage virtualization?",
+    "retrieved_chunks_preview": [
+      "\n \n2. A storage system is also called as storage array or disk array. Storage \nsystems are complex and are controlled by special systems providing hig",
+      "looks like a single storage device. \n \nStorage virtualization is also implemented by using software applications. \n \nUsage: \nStorage virtualization is",
+      "such as the Xen/KVM domain to control VNIC. By adopting \nthis format, overall efficiency of a single system is improved since applications \nare isolat"
+    ],
+    "generated_answer": "Block virtualization separates the logical storage from physical storage."
+  }
+]
