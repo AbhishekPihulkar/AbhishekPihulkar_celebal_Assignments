@@ -1,0 +1,34 @@
+{
+  "document_ingestion": {
+    "tool": "PyMuPDF (fitz)",
+    "raw_text_length_chars": 36894
+  },
+  "chunking": {
+    "strategy": "sentence-accumulation with word-boundary-safe overlap",
+    "chunk_size": 1000,
+    "overlap": 200,
+    "num_chunks": 52
+  },
+  "embedding_model": {
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "num_vectors": 52
+  },
+  "vector_store": {
+    "tool": "FAISS",
+    "index_type": "IndexFlatL2 (exact search)",
+    "vectors_indexed": 52
+  },
+  "retrieval_strategy": {
+    "method": "Two-stage retrieval: FAISS vector search (top 10 candidates) + cross-encoder re-ranking (top 3 final)",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "note": "A BM25+vector hybrid (Reciprocal Rank Fusion) was also implemented and tested; cross-encoder re-ranking was kept as final since it gave more consistent generation results across test questions."
+  },
+  "language_model": {
+    "name": "google/flan-t5-large",
+    "parameters": "~780M",
+    "task": "text2text-generation (seq2seq), loaded via AutoModelForSeq2SeqLM",
+    "max_context_tokens": 350,
+    "max_new_tokens": 150
+  }
+}
