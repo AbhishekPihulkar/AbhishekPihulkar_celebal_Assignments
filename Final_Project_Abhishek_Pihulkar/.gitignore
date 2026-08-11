@@ -1,0 +1,10 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/chunks.json
+data/chroma_db/
+logs/
+.DS_Store
+.vscode/

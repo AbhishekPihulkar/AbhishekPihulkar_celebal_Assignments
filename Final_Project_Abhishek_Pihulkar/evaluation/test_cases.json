@@ -1,0 +1,106 @@
+[
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What is the engine displacement for the Hyundai Creta?",
+        "reference_answer": "The Hyundai Creta comes with three engine options: 1,497 cm³ (1.5l MPi Petrol), 1,493 cm³ (1.5l U2 CRDi Diesel), and 1,482 cm³ (1.5l Turbo GDi Petrol).",
+        "category": "factual",
+        "expected_section": "engine and performance"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What is the mileage of the Hyundai Creta?",
+        "reference_answer": "This information is not present in the brochure.",
+        "category": "negative",
+        "expected_section": null
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What is the boot space of the Hyundai Creta?",
+        "reference_answer": "This information is not present in the brochure.",
+        "category": "negative",
+        "expected_section": null
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "How many airbags does the Hyundai Creta have?",
+        "reference_answer": "The Hyundai Creta comes standard with 6 airbags (Driver, Passenger, Side & Curtain).",
+        "category": "factual",
+        "expected_section": "safety"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What infotainment features are included in the Hyundai Creta?",
+        "reference_answer": "Features include a 26.03 cm (10.25\") HD audio video navigation system (or 20.32 cm touchscreen in lower trims), Bose premium sound 8-speaker system with front central speaker & sub-woofer, Wireless Android Auto & Apple CarPlay, Hyundai Bluelink connected car technology, Home to Car (H2C) with Alexa, embedded voice recognition, and JioSaavn music streaming.",
+        "category": "cross_section",
+        "expected_section": "infotainment and connectivity"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What is the insurance cost for the Hyundai Creta?",
+        "reference_answer": "This information is not present in the brochure.",
+        "category": "negative",
+        "expected_section": null
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Creta",
+        "question": "What is the resale value of the Hyundai Creta after 5 years?",
+        "reference_answer": "This information is not present in the brochure.",
+        "category": "negative",
+        "expected_section": null
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Alcazar",
+        "question": "What are the overall dimensions (length, width, height, and wheelbase) of the Hyundai Alcazar?",
+        "reference_answer": "The Hyundai Alcazar has an overall length of 4,560 mm, width of 1,800 mm, height of 1,710 mm (with roof rails), and a wheelbase of 2,760 mm.",
+        "category": "factual",
+        "expected_section": "dimensions"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Alcazar",
+        "question": "What seating seating configurations and 2nd-row comfort features are offered in the Alcazar?",
+        "reference_answer": "It is available in 6-seater and 7-seater configurations. The 6-seater features 2nd-row captain seats with seat-mounted armrests, thigh cushion extensions, and wing-type headrests. Other 2nd-row features include a front row seatback table with IT device holder and retractable cup-holder, 2nd-row wireless charger, ventilated seats, and rear window sunshades.",
+        "category": "cross_section",
+        "expected_section": "comfort and convenience"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Alcazar",
+        "question": "Does the Hyundai Alcazar brochure specify its ex-showroom price?",
+        "reference_answer": "This information is not present in the brochure.",
+        "category": "negative",
+        "expected_section": null
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Venue",
+        "question": "What is the boot space of the Hyundai Venue?",
+        "reference_answer": "The Hyundai Venue offers a spacious boot capacity of 375 litres (as per VDA 215 method).",
+        "category": "factual",
+        "expected_section": "dimensions"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Venue",
+        "question": "What Level 2 ADAS features are available in the Hyundai Venue?",
+        "reference_answer": "The Venue offers Level 2 ADAS with 16 features, including Forward Collision Warning (FCW), Forward Collision-Avoidance Assist (Car, Pedestrian, Cycle, Junction Turning), Lane Keeping Assist (LKA), Lane Departure Warning (LDW), Lane Following Assist (LFA), Smart Cruise Control with Stop & Go, High Beam Assist (HBA), Leading Vehicle Departure Alert (LVDA), and Parking Collision Avoidance Assist-Rear.",
+        "category": "cross_section",
+        "expected_section": "safety"
+    },
+    {
+        "brand": "Hyundai",
+        "model": "Venue",
+        "question": "What engine and powertrain options are available for the Hyundai Venue?",
+        "reference_answer": "The Hyundai Venue offers three engine options: Kappa 1.2l MPi Petrol (83 PS / 114.7 Nm with 5-speed MT), Kappa 1.0l Turbo GDi Petrol (120 PS / 172 Nm with 6-speed MT or 7-speed DCT), and U2 1.5l CRDi Diesel (116 PS / 250 Nm with 6-speed MT or 6-speed AT).",
+        "category": "factual",
+        "expected_section": "engine and performance"
+    }
+]
